@@ -1,0 +1,81 @@
+body {
+    background: -o-linear-gradient(100, 255, 128);
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.main {
+    margin-left: 37vw;
+    padding: 0;
+    height: 98vh;
+    width: 25vw;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Calculator {
+    height: 100%;
+    background-color: cadetblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.display {
+    position: relative;
+    text-align: right;
+    height: 37vh;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+.result {
+    position: relative;
+    height: 25vh;
+    margin-top: 0;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#operation {
+    position: relative;
+    height: 10vh;
+    font-size: larger;
+    color: azure;
+    margin-top: 10px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    width: 24vw;
+    font-size: 55px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input {
+    position: relative;
+    margin: 0;
+    padding-left: 10px;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 3px;
+    font-size: 30px;
+    border: none;
+    background-color: black;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+.equals {
+    background-color: red;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
